@@ -53,9 +53,29 @@ nav li a{
 .btn-primary{
   background-color: orange;
   color: white;
-  /* width: 130px; */
-  padding: 20px;
+  padding: 20px 25px;
   border: 0;
   border-radius: 5px;
   margin-bottom: 15px;
+}
+.banner img{
+  width: 100%;
+}
+
+/* responsive style */
+/* @media screen and(max-width:576px){
+  header{
+    padding: 20px;
+  }
+  nav{
+    flex-direction: column;
+  }
+} */
+@media screen and(min-width:576px) and(max-width:960px) {
+  nav{
+    flex-direction: column;
+  }
+  header{
+    padding: 50px;
+  }
 }
